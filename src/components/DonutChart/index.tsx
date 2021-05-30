@@ -10,6 +10,13 @@ type ChartData = {
 };
 
 function DonutChart() {
+  /*   //errada
+  let charData: ChartData = {
+    labels: [],
+    series: [],
+  };
+ */
+
   const [chartData, setChartData] = useState<ChartData>({
     labels: [],
     series: [],
@@ -24,13 +31,6 @@ function DonutChart() {
       setChartData({ labels: myLabels, series: mySeries });
     });
   }, []);
-
-  /*   //errada
-  let charData: ChartData = {
-    labels: [],
-    series: [],
-  };
- */
 
   //errada
 
