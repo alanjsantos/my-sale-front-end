@@ -17,7 +17,7 @@ function Dashboard() {
           </div>
           <div className="col-sm-6">
             <h5 text-center tex-secondary>
-              Success rate
+              All Sales
             </h5>
             <DonutChart />
           </div>
