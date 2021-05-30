@@ -23,7 +23,7 @@ const DataTable = () => {
       });
   }, [activePage]);
 
-  //
+  //funcao para paginacao
   const changePage = (index: number) => {
     setActivePage(index);
   };
